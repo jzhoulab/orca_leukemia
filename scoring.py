@@ -41,15 +41,15 @@ normmat_files = ['./resources/GSE134761_TALL_all.hg38.no_filter.1000.mcool.expec
             './resources/GSE63525_KBM7.hg38.no_filter.1000.mcool.expected.res4000.npy']
 
 normmats_path = normmat_files[cell_type_normmat[cell_type_name]]
-reg_files = [['Jurkat-H3K27ac.bw'],
-['THP1_M.bw'],
-['GM12878_H3K27ac_GSM733771.bw'],
-['NALM6_H3K27ac_GSM3595838.bw'],
-['Jurkat-H3K27ac.bw'],
-['ETP-ALL_H3K27ac_GSM5330543.bw',
-'KE37_H3K27ac_GSM5165987.bw'],
-['K562.bw'],
-['KBM7_H3K27ac_GSM4142031.bw']]
+reg_files = [['./resources/Jurkat-H3K27ac.bw'],
+['./resources/THP1_M.bw'],
+['./resources/GM12878_H3K27ac_GSM733771.bw'],
+['./resources/NALM6_H3K27ac_GSM3595838.bw'],
+['./resources/Jurkat-H3K27ac.bw'],
+['./resources/ETP-ALL_H3K27ac_GSM5330543.bw',
+'./resources/KE37_H3K27ac_GSM5165987.bw'],
+['./resources/K562.bw'],
+['./resources/KBM7_H3K27ac_GSM4142031.bw']]
 reg_path_file = reg_files[cell_type_normmat[cell_type_name]]
  
 cell_type = cell_type_normmat[cell_type_name]
@@ -229,7 +229,7 @@ chom_lengths_list = g.get_chr_lens()
 for i in chom_lengths_list:
     chom_lengths['chr'+i[0]] = i[1]
     
-gene_info = pd.read_csv('genes_lvl1_0.5threshold.csv')
+gene_info = pd.read_csv('./resources/genes_lvl1_0.5threshold.csv')
 
 def FindScorePlot(pos_key, pred, bin_num, gene_bin):
     
