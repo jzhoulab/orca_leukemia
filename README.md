@@ -41,7 +41,7 @@ cd ../
  ```
  7. Download the orca leukemia repository
  ```
-git clone https://github.com/jzhoulab/orca_leukimia.git
+git clone https://github.com/jzhoulab/orca_leukemia.git
 mv orca_leukemia/* .
 rm -r orca_leukemia
 ```
