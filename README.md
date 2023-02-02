@@ -27,14 +27,15 @@ python setup.py install
 
 5. Download the resource package required to run Orca Leukimia
 ```
+cd ../
 wget https://zenodo.org/record/7600893/files/orca_leukemia.tar.gz
 tar xf orca_leukemia.tar.gz
 ```
 8. Next download additional files required for Orca Leukemia Scoring 
 ```
 wget https://zenodo.org/record/7596724/files/orca_leukemia_score.tar.gz
-tar -xzvf  orca_leukemia_score.tar.gz -C ../resources
-cd ../resources
+tar -xzvf  orca_leukemia_score.tar.gz -C ./resources
+cd ./resources
 mv orca_leukemia_score/* .
 rm -r orca_leukemia_score
 cd ../
@@ -43,7 +44,6 @@ cd ../
  ```
 git clone https://github.com/jzhoulab/orca_leukemia.git
 mv orca_leukemia/* .
-rm -r orca_leukemia
 ```
 
 ## Usage
