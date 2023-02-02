@@ -1,9 +1,9 @@
 # Orca leukemia
-This repository contains code for scoring leukemia associated structural variants describe in the Structural Variation Cooperates with Permissive Chromatin to Control Enhancer Hijacking-Mediated Oncogenic Transcription manuscript. The code can be used to score structural any variant-gene pair, where the structural variant can be a translocation, inversion, duplication, or deletion and the gene should be not further than 500Kb from the breakpoint. The scoring could be done in one of the following tissues: T-ALL_GSE134761, THP1, GM12878, NALM6, Non-ETP_GSE146901, ETP_GSE146901, K562, KBM7.
+This repository contains code for scoring leukemia associated structural variants described in the Structural Variation Cooperates with Permissive Chromatin to Control Enhancer Hijacking-Mediated Oncogenic Transcription manuscript. The code can be used to score structural any variant-gene pair, where the structural variant can be a translocation, inversion, duplication, or deletion and the gene should be not further than 500Kb from the breakpoint. The scoring could be done in one of the following tissues: T-ALL_GSE134761, THP1, GM12878, NALM6, Non-ETP_GSE146901, ETP_GSE146901, K562, KBM7.
 
 
 ## Installation
-To run the Orca leukemia scoring first Orca needs to be installed, more detailed installation steps are available here: https://github.com/jzhoulab/orca. Brifely,
+To run the Orca leukemia scoring first Orca needs to be installed, more detailed installation steps are available here: https://github.com/jzhoulab/orca. Breifely,
 1. Copy the Orca repository
 ```
 git clone https://github.com/jzhoulab/orca.git
