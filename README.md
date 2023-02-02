@@ -32,7 +32,7 @@ tar xf resources_extra.tar.gz
 ```
 6. Next download additional files required for Orca Leukemia Scoring 
 ```
-wget https://zenodo.org/ record/ 7596724 /files/orca_leukemia_score.tar.gz
+wget https://zenodo.org/record/7596724/files/orca_leukemia_score.tar.gz
 tar -xzvf  orca_leukemia_score.tar.gz -C ../resources
 cd ../resources
 mv orca_leukemia_score/* .
