@@ -5,11 +5,13 @@ import sys
 # or specify the ORCA_PATH environmental variable
 import os
 import sys
+'''
 if os.getenv("ORCA_PATH"):
     ORCA_PATH = os.getenv("ORCA_PATH")
 
 
 sys.path.append(ORCA_PATH)
+'''
 
 import numpy as np
 from torch import nn
