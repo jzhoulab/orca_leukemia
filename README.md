@@ -24,13 +24,13 @@ git checkout custom_target_support
 python setup.py build_ext --inplace
 python setup.py install
 ```
-5. Download the resource package required to run Orca
+
+5. Download the resource package required to run Orca Leukimia
 ```
-cd ../
-wget https://zenodo.org/record/4594676/files/resources_extra.tar.gz
-tar xf resources_extra.tar.gz
+wget https://zenodo.org/record/7600893/files/orca_leukemia.tar.gz
+tar xf orca_leukemia.tar.gz
 ```
-6. Next download additional files required for Orca Leukemia Scoring 
+8. Next download additional files required for Orca Leukemia Scoring 
 ```
 wget https://zenodo.org/record/7596724/files/orca_leukemia_score.tar.gz
 tar -xzvf  orca_leukemia_score.tar.gz -C ../resources
@@ -39,7 +39,7 @@ mv orca_leukemia_score/* .
 rm -r orca_leukemia_score
 cd ../
  ```
- 7. Download the orca leukemia repository
+ 7. Download the Orca Leukemia repository
  ```
 git clone https://github.com/jzhoulab/orca_leukemia.git
 mv orca_leukemia/* .
